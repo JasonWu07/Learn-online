@@ -1,0 +1,206 @@
+/*banner轮播图部分*/
+.banner{
+	height: 420px;
+	background-color: #1c036c;
+}
+.banner-inner{
+	height: 420px;
+	background: url(../images/banner.jpeg) no-repeat top center;
+	position: relative;
+}
+.banner-inner .sidenav{
+	width: 190px;
+	height: 420px;
+	background: rgba(0, 0, 0, .3);
+	padding-top: 20px;
+}
+.banner-inner .sidenav li{
+
+	height: 43px;
+	line-height: 43px;
+}
+.banner-inner  li a{
+	padding-left: 10px;
+	display: block;
+	color: #fff;
+	font-size: 13px;
+}
+.banner-inner   li a:hover{
+	color: #00a4ff;
+	background: rgba(255, 255, 255, .4);
+}
+.banner-inner  ul li a::after{
+	content: "\ea50";
+	font-family: "icomoon";
+	font-size: 16px;
+	vertical-align: middle;
+	float: right;
+	margin-right: 10px;
+}
+.banner-inner ol{
+	width: 160px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.banner-inner ol li{
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	border-radius: 6px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.banner-inner ol li:hover{
+	width: 21px;
+	height: 13px;
+	background-color: #fff;
+}
+.banner-inner .timetable{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 228px;
+	height: 300px;
+	background-color: #fff;
+}
+/*.timetable {
+	display: none;
+}*/
+.timetable dt{
+	height: 50px;
+	background-color: #9bceea;
+	color: #fff;
+	line-height: 50px;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+.timetable dd{
+	padding: 15px 20px;
+}
+ .timetable dd li{
+	height: 60px;
+	border-bottom: dashed 1px #ccc;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.timetable dd li:last-child{
+	border: 0;
+}
+ .timetable dd li:hover h5,  .timetable dd li:hover p{
+ 	color: #00a4ff;
+ }
+.timetable h5{
+	font-size: 16px;
+	font-weight: normal;
+}
+.timetable  p{
+	font-size: 12px;
+}
+.all{
+	margin-top: 5px;
+	height: 40px;
+	border: solid 1px #00a4ff;
+	color: #00a4ff;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	border-radius:15px;
+}
+.all:hover{
+	background-color: #22b0ff;
+	color: #fff;
+}
+/*banner轮播图部分结束*/
+
+/*二级菜单导航栏*/
+.subnav{
+	height: 60px;
+	line-height: 60px;
+	margin-top: 5px;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, .4);
+}
+.subnav strong{
+	float: left;
+	font-size: 14px;
+	color: #00a4ff;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+.subnav a{
+	color: #050505;
+	font-size: 14px;
+	margin: 0 15px;
+}
+.subnav a:hover{
+	color: #00a4ff;
+}
+.subnav em{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	font-style: normal;
+	color: #00b4ff;
+	font-size: 13px;
+}
+/*二级菜单导航栏结束*/
+
+/*精品推荐产品模块*/
+.products{
+	margin-top: 20px;
+	position: relative;
+}
+.pro-hd h4{
+	height: 40px;
+	font-weight: normal;
+	font-size: 20px;
+	color: #494949;
+}
+.pro-hd .more{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	font-size: 12px;
+}
+.pro-bd li{
+	width: 225px;
+	height: 270px;
+	background-color: #fff;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+.pro-bd li:nth-child(5n){
+	margin-right: 0;
+}
+.pro-bd li:hover{
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+	transform: translateY(-10px);
+}
+.pro-title{
+	width: 185px;
+	margin: 20px auto;
+	color: #050505;
+	font-size: 14px;
+}
+.pro-bd li p{
+	width: 185px;
+	color: #999;
+	font-size: 12px;
+	margin: 20px auto;
+}
+.pro-bd li span{
+	color: #ff7c2d;
+}
+/*精品推荐产品模块结束*/
+
